@@ -1,4 +1,4 @@
-# TextNow AutoSend 👌
+# TextNow AutoSend 
 
 > TextNow Autosent is a Node Application that allows automantic sent message to anyone. All communication is handled through the [Puppeteer API](https://github.com/puppeteer/puppeteer/blob/v2.1.1/docs/api.md).
 
