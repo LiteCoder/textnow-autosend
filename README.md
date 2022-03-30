@@ -32,3 +32,9 @@ Modify config file, and excute script on the command line:
     npm start
     # or "yarn start"
 ```
+
+### 3. How to get cookies for TextNow
+Use Chrome to login to https://www.textnow.com/
+Install Chrome extension EditThisCookie: https://chrome.google.com/webstore/detail/fngmhnnpilhplaeedifhccceomclgfbg
+Use export function of EditThisCookie, all cookies will in clipboard
+Convert the clipboard cookies into base64 format: https://www.bejson.com/enc/base64/
