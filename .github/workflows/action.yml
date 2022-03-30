@@ -1,5 +1,6 @@
 name: "TextNow Autosend"
 on:
+  workflow_dispatch: # 手动触发
   push: # 触发机制为push操作
     branches: main
   schedule: # 触发机制为定时任务
