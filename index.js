@@ -7,8 +7,8 @@
   const config = require("./config");
   const crypto = require('crypto');
   const {
-    // username,
-    // password,
+    username,
+    password,
     recipient,
     message,
     cookies_str,
@@ -45,8 +45,8 @@
       cookies = await textNowHelper.logIn(page, client);
     } catch (error) {
       console.log("Failed to log in with existing cookies.");
-      // console.log("Logging in with account credentials...");
-      // cookies = await textNowHelper.logIn(page, client, username, password);
+      console.log("Logging in with account credentials...");
+      cookies = await textNowHelper.logIn(page, client, username, password);
       process.exit(1);
     }
 
